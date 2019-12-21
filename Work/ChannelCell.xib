@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="iwy-aa-Hyu" customClass="ChannelCell" customModule="Work" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iwy-aa-Hyu" id="oH8-2W-Qez">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QsU-lg-pXo">
+                        <rect key="frame" x="20" y="12" width="374" height="20"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p6R-Nx-2UE">
+                        <rect key="frame" x="360.5" y="12" width="33.5" height="20"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4Q-6B-PZR">
+                                <rect key="frame" x="12" y="1" width="9.5" height="18"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="T4Q-6B-PZR" secondAttribute="trailing" constant="12" id="00G-qQ-bHU"/>
+                            <constraint firstItem="T4Q-6B-PZR" firstAttribute="leading" secondItem="p6R-Nx-2UE" secondAttribute="leading" constant="12" id="Ixp-fu-Fe9"/>
+                            <constraint firstItem="T4Q-6B-PZR" firstAttribute="top" secondItem="p6R-Nx-2UE" secondAttribute="top" constant="1" id="Jfb-4T-e1c"/>
+                            <constraint firstAttribute="bottom" secondItem="T4Q-6B-PZR" secondAttribute="bottom" constant="1" id="leU-wu-K6M"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QsU-lg-pXo" firstAttribute="top" secondItem="oH8-2W-Qez" secondAttribute="top" constant="12" id="Mbf-Y8-fYP"/>
+                    <constraint firstAttribute="trailing" secondItem="p6R-Nx-2UE" secondAttribute="trailing" constant="20" id="bAZ-fO-Kgq"/>
+                    <constraint firstItem="p6R-Nx-2UE" firstAttribute="centerY" secondItem="oH8-2W-Qez" secondAttribute="centerY" id="bXF-Mt-v0X"/>
+                    <constraint firstAttribute="bottom" secondItem="QsU-lg-pXo" secondAttribute="bottom" constant="12" id="cpL-sv-lFB"/>
+                    <constraint firstItem="QsU-lg-pXo" firstAttribute="leading" secondItem="oH8-2W-Qez" secondAttribute="leading" constant="20" id="oRQ-qa-6md"/>
+                    <constraint firstAttribute="trailing" secondItem="QsU-lg-pXo" secondAttribute="trailing" constant="20" id="zcw-UC-9rl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="badgeBackground" destination="p6R-Nx-2UE" id="GaK-ew-oTn"/>
+                <outlet property="badgeLabel" destination="T4Q-6B-PZR" id="abY-Sx-hyz"/>
+                <outlet property="nameLabel" destination="QsU-lg-pXo" id="LIT-X6-AUH"/>
+                <outletCollection property="verticalMargins" destination="Mbf-Y8-fYP" collectionClass="NSMutableArray" id="TWC-Rv-c5D"/>
+                <outletCollection property="verticalMargins" destination="cpL-sv-lFB" collectionClass="NSMutableArray" id="JTw-x0-Txa"/>
+            </connections>
+            <point key="canvasLocation" x="223" y="93"/>
+        </tableViewCell>
+    </objects>
+</document>

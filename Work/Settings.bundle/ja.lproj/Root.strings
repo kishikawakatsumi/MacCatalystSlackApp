@@ -1,0 +1,40 @@
+//
+//  Root.strings
+//  http://www.inappsettingskit.com
+//
+//  Copyright (c) 2009-2010:
+//  Luc Vandal, Edovia Inc., http://www.edovia.com
+//  Ortwin Gentz, FutureTap GmbH, http://www.futuretap.com
+//  All rights reserved.
+// 
+//  It is appreciated but not required that you give credit to Luc Vandal and Ortwin Gentz, 
+//  as the original authors of this code. You can give credit in a blog post, a tweet or on 
+//  a info page of your app. Also, the original authors appreciate letting them know if you use this code.
+//
+//  This code is licensed under the BSD license that is available at: http://www.opensource.org/licenses/bsd-license.php
+//
+
+"GENERAL_SETTINGS" = "一般設定";
+"ADVANCED_SETTINGS" = "高度な設定";
+"EXPORT_SIZE" = "保存サイズ";
+"SOUND_EFFECT" = "効果音";
+"RESTORE_IMAGE_FOR_REBOOT" = "再起動時に画像を復元";
+"GUIDE" = "ガイド";
+"TOUR" = "機能ツアー";
+"TUTORIAL" = "ミニチュア風写真の撮り方";
+
+"CONTACT" = "コンタクト";
+"FEEDBACK" = "フィードバックを送る";
+"JOIN_FACEBOOK" = "TSGのFacebookグループ";
+
+"CREDIT" = "クレジット";
+
+"BLUR_QUALITY" = "ボケの品質";
+"BLUR_QUALITY_VERY_HIGH" = "最高";
+"BLUR_QUALITY_HIGH" = "高い";
+"BLUR_QUALITY_NORMAL" = "普通";
+"BLUR_QUALITY_LOW" = "低い (旧端末用)";
+
+"BRIGHTNESS_MODE" = "明るさの調整";
+"BRIGHTNESS_MODE_BRIGHTNESS" = "Brightness補正";
+"BRIGHTNESS_MODE_GAMMA" = "Gamma補正";
